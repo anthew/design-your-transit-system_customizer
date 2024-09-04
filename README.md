@@ -1,67 +1,28 @@
-# Design Your Transit System
+# Customizer for BlinkTag's "Design Your Transit System"
+
+Created by Anthony Hewitt
 
 ## Description
 
-This is a web-based survey system for collecting user preferences about improvements. It can be used to survey about any set of options, but has been tailored to be used for surveying about transportation investments and improvements.
+This is an extension of BlinkTag's "Design Your Transit System" that allows you to customize the survey using a Word document and a Windows batch file. 
 
-Users are given a "budget" and asked to spend it on a set of investments and improvements. The budget provided isn't enough to cover all of the options, so users have to make choices. Users are shown the costs and benefits they have accrued as they add and remove options. In this way, the survey serves two purposes: collecting data on user preferences while at the same time educating users about the costs and benefits of investments and improvements in transit systems.
+## Setup on Local PC
 
-The results of the survey can be exported by an admin as a CSV file for use in comparing how different groups of transit users prioritize various improvements and investments.
+### Install [Node.js](https://nodejs.org/en)
 
-The system supports multiple languages, see the `data/settings.js` and `data/strategies.js` for an example of how to set up more than one language.
+### Create a [MongoDB database](https://www.mongodb.com/)
 
-An example can be seen at https://design-your-transit-system.blinktag.com/
-
-## Local setup
-
-### Install node.js and mongodb
-
-On OS X, if you have [brew](https://brew.sh/) installed:
-
-    brew install node
-    brew install mongodb
-
-### Install dependencies
-
-    npm install
-
-### Create a .env file
-
-Create a file in the project root called `.env`. Setup values for `MONGODB_URI` and `BASIC_AUTH_CREDENTIALS`.
+### Add a `.env` file to the `Website_Source_Code` folder with the `MONGODB_URI` of the MongoDB database you created.
 
     MONGODB_URI=mongodb://127.0.0.1:27017/yoursurveydatabase
-    BASIC_AUTH_CREDENTIALS=username:password
 
-The `BASIC_AUTH_CREDENTIALS` are used for bulk .csv export of survey responses.
+### Follow the instructions in the `Designing Survey` Word document to deploy to port 3000.
 
-### Start mongodb
-
-    mongod
-
-### In a new tab, run the app
-
-    npm run dev
-
-### Open your browser and visit:
-
-    http://localhost:3000
-
-## Exporting responses
-
-While running the app, visit:
+### To download the results of a survey as a .csv file, visit the following link and enter the `Username` and `Password` of your MongoDB database.
 
     http://localhost:3000/api/export
 
-The username and password are defined in the `.env` file in the root of the project.
+### License
 
-## Current Use
-
-A version of this survey system has been used by over 30 transportation agencies, including Long Beach Transit, Boulder Transit, BART, Santa Monica Big Blue Bus, Lincoln Transit, Chapel Hill Transit, Foothill Transit, Ohio DOT, Salt Lake City and Fort Worth Transportation Authority and The Kauaʻi Bus.
-
-## Lints
-
-    npx next lint
-
-## License
-
-This project is licensed under GNU General Public License v3.0.
+    Just like the original code from BlinkTag, this project is licensed under GNU General Public License v3.0 (see LICENSE file)
+    
