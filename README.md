@@ -24,5 +24,5 @@ This is an extension of BlinkTag's "Design Your Transit System" that allows you 
 
 ### License
 
-    Just like the original code from BlinkTag, this project is licensed under GNU General Public License v3.0 (see LICENSE file)
+Just like the original code from BlinkTag, this project is licensed under GNU General Public License v3.0 (see LICENSE file).
     
