@@ -1,7 +1,7 @@
 # Customizer for BlinkTag's "Design Your Transit System"
 
 Created by Anthony Hewitt
-\
+<br>
 
 ## Description
 
