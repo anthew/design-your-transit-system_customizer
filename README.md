@@ -1,7 +1,7 @@
 # Customizer for BlinkTag's "Design Your Transit System"
 
 Created by Anthony Hewitt
-   
+
 
 ## Description
 
@@ -23,7 +23,7 @@ This is an extension of BlinkTag's "Design Your Transit System" that allows you 
 ### To download the results of a survey as a .csv file, visit the following link and enter the `Username` and `Password` of your MongoDB database.
 
     http://localhost:3000/api/export
-   
+
 
 ## License
 
