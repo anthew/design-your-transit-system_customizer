@@ -1,12 +1,12 @@
 # Customizer for BlinkTag's "Design Your Transit System"
 
 Created by Anthony Hewitt
-
+/
 
 ## Description
 
 This is an extension of BlinkTag's "Design Your Transit System" that allows you to customize the survey using a Word document and a Windows batch file. 
-
+/
 
 ## Setup on Local PC
 
@@ -23,9 +23,8 @@ This is an extension of BlinkTag's "Design Your Transit System" that allows you 
 ### To download the results of a survey as a .csv file, visit the following link and enter the `Username` and `Password` of your MongoDB database.
 
     http://localhost:3000/api/export
-
+/
 
 ## License
 
 Just like the original code from BlinkTag, this project is licensed under GNU General Public License v3.0 (see LICENSE file).
-    
