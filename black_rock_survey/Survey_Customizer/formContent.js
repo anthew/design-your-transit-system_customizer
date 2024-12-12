@@ -151,7 +151,7 @@ async function getCustomizationsAndChangeFiles() {
     settingsLines.push("\t\t\theaderTitle: \"" + tables[1][2][2] + "\",");
     settingsLines.push("\t\t\tlogoAlt: \"" + tables[1][3][2] + "\",");
     settingsLines.push("\t\t\tintroText: \"<h2>" + tables[1][4][2] + "</h2><p>" + tables[1][5][1] + "</p>\",");
-    settingsLines.push("\t\t\tbenefitCategoriesSectionTitle: \"" + tables[1][6][12] + "\",");
+    settingsLines.push("\t\t\tbenefitCategoriesSectionTitle: \"" + tables[1][6][2] + "\",");
     settingsLines.push("\t\t\thowItWorksTitle: \"" + tables[1][7][2] + "\",");
     settingsLines.push("\t\t\thowItWorksContent: \"" + tables[1][8][2] + "\",");
     settingsLines.push("\t\t\ttranslationContent: \"" + tables[1][9][2] + "\",");
