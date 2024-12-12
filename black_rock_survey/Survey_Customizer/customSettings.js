@@ -88,7 +88,7 @@ const settings = {
 			headerTitle: "Black Rock Transit: <span class=\"subtitle\">Diseñe su sistema de tránsito</span>",
 			logoAlt: "Black Rock Transit",
 			introText: "<h2>¿Cómo mejorarías Black Rock Transit?</h2><p>BlinkTag wants your suggestions for improving the Black Rock Transit system.<br><br>This survey allows you to select potential improvements that you think will help improve Black Rock Transit.</p>",
-			benefitCategoriesSectionTitle: "undefined",
+			benefitCategoriesSectionTitle: "Categorías de Beneficios",
 			howItWorksTitle: "Así es cómo Funciona:",
 			howItWorksContent: "<ul class=\"list-disc\"><li>Desplácese hacia abajo para ver las estrategias que podrían mejorar el tránsito en Black Rock City.</li><li>Tienes 15 signos de dólar ($) para gastar. Combine y mejore posibles mejoras para ver cómo cambian los costos y beneficios al hacer clic en las casillas de verificación a continuación.</li><li>Pase su presupuesto seleccionando sus estrategias preferidas.</li></ul>",
 			translationContent: "Translate to English",
