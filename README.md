@@ -1,11 +1,11 @@
-# Customizer for BlinkTag's "Design Your Transit System"
+# Bus Bux (Customizer for BlinkTag's "Design Your Transit System")
 
 Created by Anthony Hewitt
 
 
 ## Description
 
-This is an extension of BlinkTag's "Design Your Transit System" that allows you to customize the survey using a Word document and a Windows batch file. 
+Bus Bux is an extension of BlinkTag's "Design Your Transit System" that allows you to customize the survey using a Word document.
    
 
 ## Setup on Local PC
