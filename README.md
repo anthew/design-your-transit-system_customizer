@@ -6,7 +6,7 @@ Created by Anthony Hewitt
 
 ## Overview
 
-Bus Bux is an extension of BlinkTag's "Design Your Transit System" that allows you to create a transit survey using just a Word document.
+This is a extension of BlinkTag's "[Design Your Transit System](https://github.com/BlinkTagInc/design-your-transit-system)". In this version, users can create a transit survey simply by entering information into a Word document. This approach makes it more user-friendly, especially for non-programmers.
    
 <br />
 
@@ -36,6 +36,6 @@ Bus Bux is an extension of BlinkTag's "Design Your Transit System" that allows y
 
 <br />
 
-### [License](https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE)
+## License(https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE)
 
-Just like the original code from BlinkTag, this project is licensed under GNU General Public License v3.0.
+Just like the original code from BlinkTag, this project is licensed under [GNU General Public License v3.0]((https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE).
