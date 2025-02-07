@@ -2,13 +2,13 @@
 
 Created by Anthony Hewitt
 
-\
+<br />
 
 ### Overview
 
 Bus Bux is an extension of BlinkTag's "Design Your Transit System" that allows you to create a transit survey using just a Word document.
    
-\
+<br />
 
 ### Example Survey
 
@@ -16,25 +16,25 @@ Bus Bux is an extension of BlinkTag's "Design Your Transit System" that allows y
 
 ![Example Survey](example_screenshot.png)
 
-\
+<br />
 
 ### Setup & Usage
 
-###### Install [Node.js](https://nodejs.org/en)
+##### Install [Node.js](https://nodejs.org/en)
 
-###### Create a [MongoDB database](https://www.mongodb.com/)
+##### Create a [MongoDB database](https://www.mongodb.com/)
 
-###### Add a `.env` file to the [Website_Source_Code](https://github.com/anthew/design-your-transit-system_customizer/tree/master/black_rock_survey/Website_Source_Code) folder with the `MONGODB_URI` of the MongoDB database you created.
+##### Add a `.env` file to the [Website_Source_Code](https://github.com/anthew/design-your-transit-system_customizer/tree/master/black_rock_survey/Website_Source_Code) folder with the `MONGODB_URI` of the MongoDB database you created.
 
     MONGODB_URI=mongodb://127.0.0.1:27017/yoursurveydatabase
 
-###### Follow the instructions in [Designing Survey](https://github.com/anthew/design-your-transit-system_customizer/blob/master/Designing%20Survey.docx) to customize the survey and deploy it to port 3000.
+##### Follow the instructions in [Designing Survey](https://github.com/anthew/design-your-transit-system_customizer/blob/master/Designing%20Survey.docx) to customize the survey and deploy it to port 3000.
 
-###### To download the results of a survey as a .csv file, visit the following link and enter the `Username` and `Password` of your MongoDB database.
+##### To download the results of a survey as a .csv file, visit the following link and enter the `Username` and `Password` of your MongoDB database.
 
     http://localhost:3000/api/export
 
-\
+<br />
 
 ### [License](https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE)
 
