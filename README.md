@@ -22,7 +22,7 @@ Bus Bux is an extension of BlinkTag's "Design Your Transit System" that allows y
 
 **1. Install [Node.js](https://nodejs.org/en)**
 
-**2.Create a [MongoDB database](https://www.mongodb.com/)
+**2.Create a [MongoDB database](https://www.mongodb.com/)**
 
 **3. Add a `.env` file to the [Website_Source_Code](https://github.com/anthew/design-your-transit-system_customizer/tree/master/black_rock_survey/Website_Source_Code) folder with the `MONGODB_URI` of the MongoDB database you created.**
 
