@@ -36,6 +36,6 @@ This is a extension of BlinkTag's "[Design Your Transit System](https://github.c
 
 <br />
 
-## License(https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE)
+## License
 
-Just like the original code from BlinkTag, this project is licensed under [GNU General Public License v3.0]((https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE).
+Just like the original code from BlinkTag, this project is licensed under [GNU General Public License v3.0](https://github.com/anthew/design-your-transit-system_customizer/blob/master/LICENSE).
