@@ -42,16 +42,6 @@ async function getCustomizationsAndChangeFiles() {
 
   const fs = require('fs');
 
-  // // Make changes to the customSettings.js file
-  // fs.readFile('customSettings.js', 'utf8', (err, data) => {
-  //   if (err) {
-  //     console.error(err);
-  //     return;
-  //   }
-
-  //   // Array of lines of code in customSettings.js
-  //   const settingsLines = data.split('\n');
-
     const settingsLines = []
 
     settingsLines.push("// Everything in here is publicly accessible");
@@ -233,17 +223,6 @@ async function getCustomizationsAndChangeFiles() {
     }
   });
 
-
-  // Make changes to the customTheme.js file
-
-  // fs.readFile('customTheme.js', 'utf8', (err, data) => {
-  //   if (err) {
-  //     console.error(err);
-  //     return;
-  //   }
-
-  //   // Array of lines of code in customTheme.js
-  //   const themeLines = data.split('\n');
   
   var themeLines = [];
 
@@ -291,40 +270,6 @@ async function getCustomizationsAndChangeFiles() {
   themeLines.push("}");
 
 
-
-    // themeLines[2] = "const background = \"" + tables[2][0][1] + "\""
-    // themeLines[16] = "link: \"" + tables[2][1][1] + "\","
-    // themeLines[17] = "linkHover: color(\"" + tables[2][1][1] + "\").darken(0.1),"
-    // themeLines[18] = "btnLight: \"" + tables[2][2][1] + "\","
-    // themeLines[19] = "btnLightText: \"" + tables[2][3][1] + "\","
-    // themeLines[20] = "btnLightHover: color(\"" + tables[2][2][1] + "\").darken(0.1),"
-    // themeLines[21] = "btnDark: \"" + tables[2][6][1] + "\","
-    // themeLines[22] = "btnDarkText: \"" + tables[2][7][1] + "\","
-    // themeLines[23] = "btnDarkHover: color(\"" + tables[2][6][1] + "\").darken(0.1),"
-    // themeLines[24] = "btnDarkDisabled: color(\"" + tables[2][6][1] + "\").darken(0.5),"
-    // themeLines[25] = "headerStripe: \"" + tables[2][8][1] + "\","
-    // themeLines[26] = "footerBackground: \"" + tables[2][9][1] + "\","
-    // themeLines[27] = "footerText: \"" + tables[2][10][1] + "\","
-    // themeLines[28] = "footerTextHover: color(\"" + tables[2][10][1] + "\").darken(0.1),"
-    // themeLines[29] = "cardDark: `${\"" + tables[2][11][1] + "\"}!important`,"
-    // themeLines[30] = "dashboard: \"" + tables[2][12][1] + "\","
-    // themeLines[31] = "dashboardText: \"" + tables[2][13][1] + "\","
-    // themeLines[32] = "dashboardMeterBackground: \"" + tables[2][14][1] + "\","
-    // themeLines[33] = "dashboardMeter: \"" + tables[2][15][1] + "\","
-    // themeLines[34] = "dashboardMeterCost: \"" + tables[2][16][1] + "\","
-    // themeLines[35] = "dashboardMeterOverCost: \"" + tables[2][17][1] + "\","
-    // themeLines[36] = "dashboardMeterTextDark: \"" + tables[2][18][1] + "\","
-    // themeLines[37] = "dashboardMeterTextLight: \"" + tables[2][19][1] + "\","
-    // themeLines[39] = "strategy: \"" + tables[2][20][1] + "\","
-    // themeLines[40] = "strategySelected: \"" + tables[2][22][1] + "\","
-    // themeLines[41] = "strategySelectedText: \"" + tables[2][23][1] + "\","
-    // themeLines[42] = "strategyBar: \"" + tables[2][24][1] + "\","
-    // themeLines[43] = "strategyCostSigns: \"" + tables[2][25][1] + "\","
-
-    // themeLines[46] = "resetBtn: \"" + tables[2][4][1] + "\","
-    // themeLines[47] = "resetBtnText: \"" + tables[2][5][1] + "\","
-    // themeLines[48] = "strategyText: \"" + tables[2][21][1] + "\","
-
     const modifiedThemeFile = themeLines.join('\n');
 
     fs.writeFile('customTheme.js', modifiedThemeFile, 'utf8', (err) => {
@@ -334,7 +279,6 @@ async function getCustomizationsAndChangeFiles() {
       }
     });
 
-  // });
 }
 getCustomizationsAndChangeFiles();
 
